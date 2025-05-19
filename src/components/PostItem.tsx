@@ -1,4 +1,12 @@
-import { Heart, MessageCircle, Send, Bookmark, MoreHorizontal } from 'lucide-react'
+import { useState } from 'react'
+import {
+  Heart as HeartOutline,
+  Heart,
+  MessageCircle,
+  Send,
+  Bookmark,
+  MoreHorizontal,
+} from 'lucide-react'
 
 type Post = {
   username: string
@@ -6,10 +14,21 @@ type Post = {
   imageUrl: string
   numberOfLikes: number
   description: string
-  timeAgo: string
 }
 
-export default function PostItem ({ post }: { post: Post }) {
+export default function Post({ post }: { post: Post }) {
+  const [liked, setLiked] = useState(false)
+  const [likes, setLikes] = useState(post.numberOfLikes)
+
+  const handleLike = () => {
+    if (liked) {
+      setLikes(likes - 1)
+    } else {
+      setLikes(likes + 1)
+    }
+    setLiked(!liked)
+  }
+
   return (
     <div className="bg-white border border-gray-300 rounded-md mb-6 max-w-md w-full">
       <div className="flex items-center justify-between p-3">
@@ -27,11 +46,21 @@ export default function PostItem ({ post }: { post: Post }) {
         </div>
       </div>
 
-      <img src={post.imageUrl} alt="Post" className="w-full max-h-[500px] object-cover" />
+      <img
+        src={post.imageUrl}
+        alt="Post"
+        className="w-full max-h-[500px] object-cover"
+      />
 
       <div className="flex justify-between items-center px-3 pt-2">
         <div className="flex gap-4">
-          <Heart className="w-6 h-6" />
+          <button onClick={handleLike} className="cursor-pointer">
+            {liked ? (
+              <Heart className="w-6 h-6 text-red-500 fill-red-500" />
+            ) : (
+              <HeartOutline className="w-6 h-6" />
+            )}
+          </button>
           <MessageCircle className="w-6 h-6" />
           <Send className="w-6 h-6" />
         </div>
@@ -39,7 +68,7 @@ export default function PostItem ({ post }: { post: Post }) {
       </div>
 
       <div className="px-3 pb-3">
-        <p className="text-sm font-semibold mt-2">{post.numberOfLikes} likes</p>
+        <p className="text-sm font-semibold mt-2">{likes} likes</p>
         <p className="text-sm mt-1">
           <span className="font-semibold">{post.username}</span> {post.description}
         </p>

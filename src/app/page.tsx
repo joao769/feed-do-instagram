@@ -1,18 +1,30 @@
+"use client"
+
+import { useEffect, useState } from 'react'
 import PostItem from '@/components/PostItem'
 
-const posts = Array.from({ length: 20 }).map((_, i) => ({
-  username: `usuario${i + 1}`,
-  avatarUrl: `https://i.pravatar.cc/150?img=${i + 1}`,
-  imageUrl: `https://source.unsplash.com/random/800x600?sig=${i}`,
-  numberOfLikes: Math.floor(Math.random() * 1000),
-  description: 'Uma legenda estilosa para esta postagem!',
-  timeAgo: `${Math.floor(Math.random() * 10) + 1}h`,
-}))
+type Post = {
+  username: string
+  avatarUrl: string
+  imageUrl: string
+  numberOfLikes: number
+  description: string
+  timeAgo: string
+}
 
 export default function Home() {
+  const [posts, setPosts] = useState<Post[]>([])
+
+  useEffect(() => {
+    fetch('/posts.json')
+      .then(res => res.json())
+      .then(data => setPosts(data))
+      .catch(err => console.error('Erro ao carregar posts:', err))
+  }, [])
+
   return (
     <main className="flex flex-col items-center bg-gray-100 min-h-screen py-6">
-      {posts.map((post, index) => (
+      {posts.length > 0 && posts.map((post, index) => (
         <PostItem key={index} post={post} />
       ))}
     </main>

@@ -1,0 +1,142 @@
+[
+  {
+    "username": "ana_souza",
+    "avatarUrl": "/assets/avatar/1.jpg",
+    "imageUrl": "/assets/post/1.jpg",
+    "numberOfLikes": 234,
+    "description": "Aproveitando cada momento da vida 🌞 #Vida #Gratidão #Sol"
+  },
+  {
+    "username": "carlos.mendes89",
+    "avatarUrl": "/assets/avatar/2.jpg",
+    "imageUrl": "/assets/post/2.jpg",
+    "numberOfLikes": 189,
+    "description": "Café, livros e boa companhia ☕📚 #Café #Livros #Momentos"
+  },
+  {
+    "username": "julia_costa",
+    "avatarUrl": "/assets/avatar/3.jpg",
+    "imageUrl": "/assets/post/3.jpg",
+    "numberOfLikes": 421,
+    "description": "Vibes de final de semana 🍃 #Finde #Natureza #Relax"
+  },
+  {
+    "username": "lucas.ferreira12",
+    "avatarUrl": "/assets/avatar/4.jpg",
+    "imageUrl": "/assets/post/4.jpg",
+    "numberOfLikes": 312,
+    "description": "A natureza sempre surpreende 🌄 #Natureza #Aventura #Paisagem"
+  },
+  {
+    "username": "mariana_lima",
+    "avatarUrl": "/assets/avatar/5.jpg",
+    "imageUrl": "/assets/post/5.jpg",
+    "numberOfLikes": 289,
+    "description": "Detalhes que fazem a diferença ✨ #Detalhes #Beleza #Inspiração"
+  },
+  {
+    "username": "pedro.rocha_7",
+    "avatarUrl": "/assets/avatar/6.jpg",
+    "imageUrl": "/assets/post/6.jpg",
+    "numberOfLikes": 97,
+    "description": "Trabalho duro, grandes conquistas 💪 #Trabalho #Foco #Conquista"
+  },
+  {
+    "username": "fernanda_dias",
+    "avatarUrl": "/assets/avatar/7.jpg",
+    "imageUrl": "/assets/post/7.jpg",
+    "numberOfLikes": 374,
+    "description": "Uma pausa para respirar e agradecer 🙏 #Gratidão #Paz #Reflexão"
+  },
+  {
+    "username": "rafael.martins01",
+    "avatarUrl": "/assets/avatar/8.jpg",
+    "imageUrl": "/assets/post/8.jpg",
+    "numberOfLikes": 455,
+    "description": "A melhor vista é aquela que te inspira 🏞️ #Vista #Inspiração #Natureza"
+  },
+  {
+    "username": "isabela_teixeira",
+    "avatarUrl": "/assets/avatar/9.jpg",
+    "imageUrl": "/assets/post/9.jpg",
+    "numberOfLikes": 196,
+    "description": "Flores no caminho 🌸 #Flores #BelezaNatural #Primavera"
+  },
+  {
+    "username": "thiago.gomes_10",
+    "avatarUrl": "/assets/avatar/10.jpg",
+    "imageUrl": "/assets/post/10.jpg",
+    "numberOfLikes": 318,
+    "description": "Na trilha da aventura 🥾 #Aventura #Trilha #Exploração"
+  },
+  {
+    "username": "larissa.ribeiro",
+    "avatarUrl": "/assets/avatar/11.jpg",
+    "imageUrl": "/assets/post/11.jpg",
+    "numberOfLikes": 253,
+    "description": "Domingo de preguiça 😴 #Domingo #Descanso #PreguiçaBoa"
+  },
+  {
+    "username": "bruno_oliveira",
+    "avatarUrl": "/assets/avatar/12.jpg",
+    "imageUrl": "/assets/post/12.jpg",
+    "numberOfLikes": 412,
+    "description": "Mais um clique incrível 📷 #Fotografia #Clique #Paisagem"
+  },
+  {
+    "username": "beatriz.nunes5",
+    "avatarUrl": "/assets/avatar/13.jpg",
+    "imageUrl": "/assets/post/13.jpg",
+    "numberOfLikes": 334,
+    "description": "Sorrisos sinceros 💫 #Felicidade #Sorriso #Leveza"
+  },
+  {
+    "username": "daniel.alves",
+    "avatarUrl": "/assets/avatar/14.jpg",
+    "imageUrl": "/assets/post/14.jpg",
+    "numberOfLikes": 288,
+    "description": "Começando a semana com o pé direito 👣 #SegundaFeira #Motivação #Semana"
+  },
+  {
+    "username": "camila_araujo",
+    "avatarUrl": "/assets/avatar/15.jpg",
+    "imageUrl": "/assets/post/15.jpg",
+    "numberOfLikes": 476,
+    "description": "Sentir o vento e a liberdade 🕊️ #Liberdade #ArLivre #Natureza"
+  },
+  {
+    "username": "rodrigo.lima22",
+    "avatarUrl": "/assets/avatar/16.jpg",
+    "imageUrl": "/assets/post/16.jpg",
+    "numberOfLikes": 309,
+    "description": "Luz e sombra na medida certa 🌓 #LuzESombra #Fotografia #Arte"
+  },
+  {
+    "username": "luana_carvalho",
+    "avatarUrl": "/assets/avatar/17.jpg",
+    "imageUrl": "/assets/post/17.jpg",
+    "numberOfLikes": 223,
+    "description": "A beleza está nos detalhes 🎨 #Detalhes #Arte #Beleza"
+  },
+  {
+    "username": "andre.silva",
+    "avatarUrl": "/assets/avatar/18.jpg",
+    "imageUrl": "/assets/post/18.jpg",
+    "numberOfLikes": 345,
+    "description": "Curtindo cada instante 🔥 #Momento #Vibes #Intensidade"
+  },
+  {
+    "username": "patricia.melo",
+    "avatarUrl": "/assets/avatar/19.jpg",
+    "imageUrl": "/assets/post/19.jpg",
+    "numberOfLikes": 267,
+    "description": "Reflexos da alma 💭 #Reflexão #Pensamentos #Inspiração"
+  },
+  {
+    "username": "eduardo_pinto09",
+    "avatarUrl": "/assets/avatar/20.jpg",
+    "imageUrl": "/assets/post/20.jpg",
+    "numberOfLikes": 390,
+    "description": "Descobrindo novos caminhos 🚗 #Viagem #Exploração #Aventura"
+  }
+]

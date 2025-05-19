@@ -9,7 +9,7 @@ type Post = {
   timeAgo: string
 }
 
-export default function PostItem({ post }: { post: Post }) {
+export default function PostItem ({ post }: { post: Post }) {
   return (
     <div className="bg-white border border-gray-300 rounded-md mb-6 max-w-md w-full">
       <div className="flex items-center justify-between p-3">

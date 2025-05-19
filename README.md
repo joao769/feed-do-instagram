@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Feed do Instagram
 
-## Getting Started
+**Projeto desenvolvido para a disciplina de *Programação Web*, no curso de *Engenharia de Software* da UPE.**  
+Atividade proposta pelo professor *Augusto*, este projeto é uma réplica do Feed de Postagens do Instagram, desenvolvido com React/Next.js e estilizado com Tailwind CSS.  
+O objetivo é reproduzir a interface e funcionalidades básicas de um feed de postagens, conforme modelo fornecido.
 
-First, run the development server:
+##  ⚙️ Funcionalidades Implementadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Componente PostItem**: Recebe um objeto post com propriedades típicas de uma postagem do Instagram.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Array de Postagens**: Os dados das postagens estão organizados no arquivo posts.json, que contém um array com pelo menos 20 objetos representando diferentes publicações. Esse arquivo é utilizado para alimentar dinamicamente o feed.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Renderização Dinâmica**: As postagens são exibidas em sequência no feed a partir do conteúdo do JSON, garantindo modularidade e separação entre lógica e dados.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Botão Like Interativo**:
+  - O botão de curtida pode ser clicado para alternar entre os estados “curtido” e “não curtido”.
+  - O ícone do botão muda para um coração preenchido quando curtido e para o coração vazio quando não curtido.
+  - A contagem de curtidas é atualizada dinamicamente para refletir a ação do usuário.
 
-## Learn More
+## 🚀 Como executar o Projeto
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone o repositório:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    git clone https://github.com/joao769/feed-do-instagram.git
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Navegue até o diretório do projeto:
 
-## Deploy on Vercel
+    ```bash
+    cd feed-do-instagram
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Instale as dependências:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm install
+    ```
+
+4. Execute o projeto:
+
+    ```bash
+    npm run dev
+    ```
+
+5. Acesse `http://localhost:3000` no seu navegador para visualizar o feed.
